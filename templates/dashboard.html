@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Workflow Optimization</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Fonts for Premium Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Clinical Workflow Optimization Demo</h1>
+            <p>Simulating Patient Flow & Lean Improvements</p>
+        </header>
+
+        <main>
+            <div class="dashboard-grid">
+                <!-- Section 1: Workflow Map -->
+                <section class="card workflow-map">
+                    <h2>Workflow Mapping</h2>
+                    <div class="process-flow">
+                        <div class="step">
+                            <div class="icon">📅</div>
+                            <div class="label">Appointment</div>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="step bottleneck">
+                            <div class="icon">⏳</div>
+                            <div class="label">Waiting Room</div>
+                            <span class="badge warning">Bottleneck</span>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="step">
+                            <div class="icon">🩺</div>
+                            <div class="label">Encounter</div>
+                        </div>
+                        <div class="arrow">→</div>
+                        <div class="step bottleneck">
+                            <div class="icon">📝</div>
+                            <div class="label">Documentation</div>
+                            <span class="badge warning">Bottleneck</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section 2: Key Metrics Comparison -->
+                <section class="card metrics">
+                    <h2>Performance Metrics (Current vs. Lean)</h2>
+                    <div class="metrics-container" id="metrics-display">
+                        <!-- Populated by JS -->
+                        <div class="loading">Loading Simulation Data...</div>
+                    </div>
+                </section>
+
+                <!-- Section 3: Visual Analysis -->
+                <section class="card charts">
+                    <h2>Impact Analysis</h2>
+                    <canvas id="impactChart"></canvas>
+                </section>
+            </div>
+
+            <script src="/static/js/charts.js"></script>
+        </main>
+
+        <footer>
+            <p>Demonstrating Appointment -> Encounter -> Documentation Logic</p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Workflow Optimization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Google Fonts for Premium Look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Clinical Workflow Optimization Demo</h1>
+            <p>Simulating Patient Flow & Lean Improvements</p>
+        </header>
+        
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer>
+            <p>Demonstrating Appointment -> Encounter -> Documentation Logic</p>
+        </footer>
+    </div>
+</body>
+</html>
