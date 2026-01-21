@@ -1,3 +1,8 @@
+![Healthcare](https://img.shields.io/badge/Domain-Healthcare-blue)
+![OPOR](https://img.shields.io/badge/Data%20Standard-OPOR-green)
+![Confidential](https://img.shields.io/badge/Project-Confidential-red)
+![Portfolio](https://img.shields.io/badge/Usage-Professional%20Portfolio-purple)
+
 # Clinical Workflow Optimization Demo 🇨🇦
 
 > **Data-driven simulation and optimization of clinical workflows**, demonstrating Lean Healthcare principles and OPOR-aligned patient processes.
