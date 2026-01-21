@@ -5,6 +5,8 @@
 
 # Clinical Workflow Optimization Demo 🇨🇦
 
+⚠️ Important Notice This project uses fully fictional data generated for demonstration purposes only. No real patient data, identifiers, healthcare organizations, or facilities are used. This project is not intended for production use.
+
 > **Data-driven simulation and optimization of clinical workflows**, demonstrating Lean Healthcare principles and OPOR-aligned patient processes.
 
 ![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)
